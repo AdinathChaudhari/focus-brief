@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "focus-brief",
+  "description": "Executive-brief reply shaping for Claude Code. Decision first, one thread at a time, park list for the rest.",
+  "owner": {
+    "name": "Adinath Chaudhari"
+  },
+  "plugins": [
+    {
+      "name": "focus-brief",
+      "description": "Decision-first, one-thread-at-a-time reply shaping for Claude Code.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
