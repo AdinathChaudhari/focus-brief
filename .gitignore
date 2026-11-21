@@ -1,7 +1,10 @@
+.DS_Store
 BRAIN-PATTERNS.md
 conversations/
-.DS_Store
-VISION.md
-KICKOFF-PROMPT.md
 decisions.md
+docs/media/*.bak
+docs/media/ABOUT-IMAGE.md
+docs/media/hero-glass.jpg
 docs/tests/
+KICKOFF-PROMPT.md
+VISION.md

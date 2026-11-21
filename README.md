@@ -1,26 +1,27 @@
 <!--
 GitHub metadata, applied by hand in repo Settings (not rendered):
 About: Shape every Claude Code reply into a six-part executive brief with the decision first, one active thread, a park list and time & cost — an output style, skill and plugin.
-Topics (ranked): claude-code, claude-code-skill, claude-code-plugin, claude-skills, prompt-engineering, output-style, productivity, focus, executive-summary, adhd, adhd-friendly, accessibility, llm, ai-assistant, anthropic, markdown
-Social preview: docs/media/hero.png at 1280x640 once the asset exists.
+Topics (ranked): claude-code, claude-code-skill, claude-code-plugin, claude-skills, output-style, prompt-engineering, productivity, focus, executive-summary, adhd-friendly, accessibility, llm, ai-assistant, anthropic, markdown
+Social preview: docs/media/hero-glass.jpg (1280x640, git-ignored) made from docs/media/hero.png with --glass.
 -->
 
 # focus-brief — Executive-Brief Replies for Claude Code
 
 **Decision first. One thread at a time.**  
-*A Claude Code skill that shapes every reply into a six-part brief: the decision you need to make, what it is, how it works, what you do, cost and time, and what is parked.*
+*A Claude Code output style and skill that shapes every reply into a six-part brief: the decision you need to make, what it is, how it works, what you do, cost and time, and what is parked.*
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-d97757.svg)](.claude-plugin/plugin.json)
+[![Written in Markdown](https://img.shields.io/badge/written%20in-Markdown-555.svg)](skills/focus-brief/SKILL.md)
 
-<!-- Hero image slot: docs/media/hero-rounded.png (not made yet) -->
+<img src="docs/media/hero-rounded.png" width="720" alt="A small character pulls one glowing thread out of a tangled knot while the other threads wait, wound on labelled spools on a shelf">
 
 | I want to… | Where | What it is |
 |---|---|---|
-| **Install it** | [Install](#install) | Two `claude plugin` commands |
-| **See the reply shape** | [`skills/focus-brief/SKILL.md`](skills/focus-brief/SKILL.md) | The six parts, the 15 rules, the pre-send check |
-| **See what changes** | [Before and after](#before-and-after) | One multi-thread message, with and without the skill |
-| **Know where the rules came from** | [Acknowledgements](#acknowledgements) | Adapted from i-have-adhd, MIT |
+| **Install it** | [`.claude-plugin/`](.claude-plugin/) | Two `claude plugin` commands, then pick the style in `/config` |
+| **See the reply shape** | [`output-styles/focus-brief.md`](output-styles/focus-brief.md) | The six parts, the 15 rules, the pre-send check |
+| **See what changes** | [`TESTS.md`](TESTS.md) | Five prompts, three setups, scored check by check |
+| **Know where the rules came from** | [`THIRD-PARTY.md`](THIRD-PARTY.md) | Adapted from i-have-adhd, MIT |
 
 ## Install
 
