@@ -1,14 +1,14 @@
 <!--
 GitHub metadata, applied by hand in repo Settings (not rendered):
-About: Shape every Claude Code reply into a six-part executive brief with the decision first, one active thread, a park list and time & cost — an output style, skill and plugin.
+About: Shape every Claude Code reply into a six-part executive brief: what it is, how it works, cost & time, then one decision, with a park list — an output style, skill and plugin.
 Topics (ranked): claude-code, claude-code-skill, claude-code-plugin, claude-skills, output-style, prompt-engineering, productivity, focus, executive-summary, adhd-friendly, accessibility, llm, ai-assistant, anthropic, markdown
 Social preview: docs/media/hero-glass.jpg (1280x640, git-ignored) made from docs/media/hero.png with --glass.
 -->
 
 # focus-brief — Executive-Brief Replies for Claude Code
 
-**Decision first. One thread at a time.**  
-*A Claude Code output style and skill that shapes every reply into a six-part brief: the decision you need to make, what it is, how it works, what you do, cost and time, and what is parked.*
+**The picture first, then one decision.**  
+*A Claude Code output style and skill that shapes every reply into a six-part brief: what it is, how it works, cost and time, the one decision you need to make, what you do, and what is parked.*
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-d97757.svg)](.claude-plugin/plugin.json)
@@ -54,11 +54,11 @@ That's it. Everything below is detail.
 ## The reply shape
 
 ```
-1. Your decision now   one line, plus A / B / C reply options
-2. What it is          one plain sentence
-3. How it works        3 to 5 numbered steps, never more
-4. What you do         your part, with minutes
-5. Cost / time         money or usage, and clock time
+1. What it is          one plain sentence
+2. How it works        3 to 5 numbered steps, never more
+3. Cost / time         money or usage, and clock time
+4. Your decision now   one line, plus A / B / C reply options
+5. What you do         your part, with minutes
 6. Paused / waiting    the park list, plus "Active thread: X. Step N of M."
 ```
 
@@ -66,7 +66,7 @@ Small answers use a short form: the answer, one state line, one next action.
 
 ## The rules
 
-**Group A, adapted from i-have-adhd:** decision first · five steps at most · restate state, including what is paused · specific time and cost · one next action under two minutes · no preamble, plain words.
+**Group A, adapted from i-have-adhd:** picture first, then the decision · five steps at most · restate state, including what is paused · specific time and cost · one next action under two minutes · no preamble, plain words.
 
 **Group B, new:** one active thread with a park list · one decision per message · understand-first gate (restate in three lines, wait for "go") · show before it leaves · cheap sample before the full run · digest agent reports, do not relay them · resume brief at session start · read the whole message before acting · complexity alarm.
 
@@ -78,7 +78,7 @@ A real run from the test set. The prompt was *"Build me a small command line too
 
 **Before:** the reply opened with setup steps and a 100-line script. Nothing was asked first, and no cost was given.
 
-**With focus-brief** (output style, first lines of the reply):
+**With focus-brief** (first lines of the reply; this test ran on the first version, which asked the decision before the picture):
 
 ```
 **1. Your decision now**
